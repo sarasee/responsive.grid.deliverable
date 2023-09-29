@@ -210,13 +210,20 @@ first div in the grid  and place it in the grid. */
 }
 
 /* Add your media query here */
-@media screen and (min-width: 800px;){
+@media screen and (min-width: 800px){
   nav{
     text-align: right;
     padding-top: 30px;
   }
 
   /* Step 9,10,11,12: Write the selector/rule property to style the nav element */
+  /* Add padding to the top and bottom, and set padding to 0 on the left and right */
+
+ 
+  /* Step 10: Write the selector/rule property to update the .container class */
+
+  /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
+
 /* Move the navigation to the other side (right) of the window */
 }
 .container {
@@ -229,13 +236,4 @@ first div in the grid  and place it in the grid. */
 .method, .contact, .about-image, .clients-image {
   grid-column: 2 / span 2;
 }
-
-/* Add padding to the top and bottom, and set padding to 0 on the left and right */
-
- 
-  /* Step 10: Write the selector/rule property to update the .container class */
-
-  /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
-
-
 
